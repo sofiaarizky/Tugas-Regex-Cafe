@@ -14,7 +14,7 @@ public class PemesananMakanan {
         do {
             System.out.print("Masukkan nama Anda                : ");
             nama = input.nextLine();
-            valid = nama.matches("^[a-zA-Z\\s]+$");
+            valid = nama.matches("^[A-Za-z\\s]+$");
             if (!valid) {
                 System.err.println("Nama tidak valid! (Hanya huruf & spasi)");
             }
